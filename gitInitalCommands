@@ -1,0 +1,15 @@
+Generate SSH Key Pair:
+	 ssh-keygen -t rsa -b 4096 -C
+Initialize a Git Repository:
+	 git init
+Add Files to the Repository:
+	 git add .
+Commit the Changes: 
+	git commit -m "Initial commit"
+Configure Git to Use SSH:
+	git remote set-url origin git@github.com:<username>/<repository>.git
+Push Changes to GitHub:
+	git push -u origin master
+
+
+
